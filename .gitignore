@@ -20,6 +20,30 @@ build
 # other
 eclipse
 run
+run-data
+src/generated
+src/test
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# JAR files
+*.jar
+
+# Config files
+*.cfg
+
+# Backup files
+*.bak
+*.tmp
+
+# Temporary files
+*.tmp
+*.temp
