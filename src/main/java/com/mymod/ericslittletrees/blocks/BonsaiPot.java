@@ -1,5 +1,9 @@
 package com.mymod.ericslittletrees.blocks;
 
+import java.util.Collections;
+import java.util.List;
+
+import com.mymod.ericslittletrees.EricsLittleTrees;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
@@ -12,6 +16,7 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.phys.BlockHitResult;
 
 public class BonsaiPot extends FlowerPotBlock {
@@ -44,4 +49,12 @@ public class BonsaiPot extends FlowerPotBlock {
 
         return super.use(state, world, pos, player, hand, hit);
     }
+    
+    
+    @Override
+    public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+        return Collections.singletonList(new ItemStack(EricsLittleTrees.BONSAI_POT_ITEM.get()));
+    }
+    
+    
 }
