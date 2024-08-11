@@ -22,7 +22,7 @@
       "model": "ericslittletrees:block/bonsai/dark_oak_bonsai"
     },
     "contents=cherry_sapling": {
-      "model": "ericslittletrees:block/bonsai/cherry_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai"
     }
   }
 }
