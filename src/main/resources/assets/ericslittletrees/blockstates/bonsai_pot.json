@@ -1,5 +1,28 @@
 {
   "variants": {
-    "": { "model": "ericslittletrees:block/bonsai_pot" }
+    "contents=empty": {
+      "model": "ericslittletrees:block/bonsai_pot"
+    },
+    "contents=oak_sapling": {
+      "model": "ericslittletrees:block/bonsai/oak_bonsai"
+    },
+    "contents=spruce_sapling": {
+      "model": "ericslittletrees:block/bonsai/spruce_bonsai"
+    },
+    "contents=birch_sapling": {
+      "model": "ericslittletrees:block/bonsai/birch_bonsai"
+    },
+    "contents=jungle_sapling": {
+      "model": "ericslittletrees:block/bonsai/jungle_bonsai"
+    },
+    "contents=acacia_sapling": {
+      "model": "ericslittletrees:block/bonsai/acacia_bonsai"
+    },
+    "contents=dark_oak_sapling": {
+      "model": "ericslittletrees:block/bonsai/dark_oak_bonsai"
+    },
+    "contents=cherry_sapling": {
+      "model": "ericslittletrees:block/bonsai/cherry_bonsai"
+    }
   }
 }
