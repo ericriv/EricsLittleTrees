@@ -2,6 +2,8 @@ package com.mymod.ericslittletrees;
 
 import com.mojang.logging.LogUtils;
 import com.mymod.ericslittletrees.blocks.BonsaiPot;
+import com.mymod.ericslittletrees.items.BonsaiWire;
+
 import net.minecraft.client.Minecraft;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.world.item.BlockItem;
@@ -43,6 +45,8 @@ public class EricsLittleTrees
     
     public static final RegistryObject<Item> BONSAI_POT_ITEM = ITEMS.register("bonsai_pot", 
         () -> new BlockItem(BONSAI_POT.get(), new Item.Properties()));
+    
+    public static final RegistryObject<Item> BONSAI_WIRE = ITEMS.register("bonsai_wire", BonsaiWire::new);
 
     public EricsLittleTrees()
     {
@@ -71,8 +75,11 @@ public class EricsLittleTrees
 
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS)
+        if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(BONSAI_POT_ITEM.get());
+            event.accept(BONSAI_WIRE);
+        }
+        //if (event.getTabKey() == CreativeModeTabs.)
     }
 
     @SubscribeEvent
