@@ -4,22 +4,22 @@
       "model": "ericslittletrees:block/bonsai_pot"
     },
     "contents=oak_sapling": {
-      "model": "ericslittletrees:block/bonsai/oak_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/oak_bonsai"
     },
     "contents=spruce_sapling": {
-      "model": "ericslittletrees:block/bonsai/spruce_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/spruce_bonsai"
     },
     "contents=birch_sapling": {
-      "model": "ericslittletrees:block/bonsai/birch_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/birch_bonsai"
     },
     "contents=jungle_sapling": {
-      "model": "ericslittletrees:block/bonsai/jungle_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/jungle_bonsai"
     },
     "contents=acacia_sapling": {
-      "model": "ericslittletrees:block/bonsai/acacia_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/acacia_bonsai"
     },
     "contents=dark_oak_sapling": {
-      "model": "ericslittletrees:block/bonsai/dark_oak_bonsai"
+      "model": "ericslittletrees:block/pottedbonsai/dark_oak_bonsai"
     },
     "contents=cherry_sapling": {
       "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai"

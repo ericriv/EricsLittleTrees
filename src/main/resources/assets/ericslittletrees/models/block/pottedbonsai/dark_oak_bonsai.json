@@ -2,9 +2,9 @@
 	"textures": {
 		"0": "ericslittletrees:block/bonsai_pot",
 		"1": "ericslittletrees:block/sand",
-		"particle": "ericslittletrees:block/cherry_log",
-		"2_0": "ericslittletrees:block/cherry_log",
-		"2_1": "ericslittletrees:block/cherry_leaves"
+		"particle": "ericslittletrees:block/dark_oak_log",
+		"2_0": "ericslittletrees:block/dark_oak_log",
+		"2_1": "ericslittletrees:block/dark_oak_leaves"
 	},
 	"elements": [
 		{
