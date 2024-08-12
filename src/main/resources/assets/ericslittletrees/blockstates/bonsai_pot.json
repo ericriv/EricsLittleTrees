@@ -5,31 +5,31 @@
       "y": 0
     },
     "contents=oak_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 0
     },
     "contents=spruce_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/spruce_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 0
     },
     "contents=birch_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/birch_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 0
     },
     "contents=jungle_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/jungle_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 0
     },
     "contents=acacia_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/acacia_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 0
     },
     "contents=dark_oak_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/dark_oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 0
     },
     "contents=cherry_sapling,facing=north": {
-      "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 0
     },
     "contents=empty,facing=east": {
@@ -37,31 +37,31 @@
       "y": 90
     },
     "contents=oak_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 90
     },
     "contents=spruce_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/spruce_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 90
     },
     "contents=birch_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/birch_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 90
     },
     "contents=jungle_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/jungle_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 90
     },
     "contents=acacia_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/acacia_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 90
     },
     "contents=dark_oak_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/dark_oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 90
     },
     "contents=cherry_sapling,facing=east": {
-      "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 90
     },
     "contents=empty,facing=south": {
@@ -69,31 +69,31 @@
       "y": 180
     },
     "contents=oak_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 180
     },
     "contents=spruce_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/spruce_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 180
     },
     "contents=birch_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/birch_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 180
     },
     "contents=jungle_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/jungle_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 180
     },
     "contents=acacia_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/acacia_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 180
     },
     "contents=dark_oak_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/dark_oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 180
     },
     "contents=cherry_sapling,facing=south": {
-      "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 180
     },
     "contents=empty,facing=west": {
@@ -101,31 +101,31 @@
       "y": 270
     },
     "contents=oak_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 270
     },
     "contents=spruce_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/spruce_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 270
     },
     "contents=birch_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/birch_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 270
     },
     "contents=jungle_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/jungle_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 270
     },
     "contents=acacia_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/acacia_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 270
     },
     "contents=dark_oak_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/dark_oak_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 270
     },
     "contents=cherry_sapling,facing=west": {
-      "model": "ericslittletrees:block/pottedbonsai/cherry_bonsai",
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 270
     }
   }

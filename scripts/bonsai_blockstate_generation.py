@@ -14,10 +14,12 @@ for facing in facing_directions:
             rotation = 270
         
         # Remove "_sapling" suffix if present
-        model_name = content.replace("_sapling", "")
+        #model_name = content.replace("_sapling", "")
+
+        model_name = content
         
         # Construct model path based on the content
-        model = f"ericslittletrees:block/bonsai_pot" if content == "empty" else f"ericslittletrees:block/pottedbonsai/{model_name}_bonsai"
+        model = f"ericslittletrees:block/bonsai_pot" if content == "empty" else f"ericslittletrees:block/pottedsapling/{model_name}_bonsai"
         
         json_data["variants"][f"contents={content},facing={facing}"] = {
             "model": model,

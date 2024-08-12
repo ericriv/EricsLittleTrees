@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "ericslittletrees:block/acacia_sapling",
 		"1": "ericslittletrees:block/sand",
+		"2": "ericslittletrees:block/cherry_sapling",
 		"particle": "ericslittletrees:block/bonsai_pot",
 		"1_0": "ericslittletrees:block/bonsai_pot"
 	},
@@ -12,12 +12,12 @@
 			"to": [8, 11, 12],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 3, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"down": {"uv": [0, 0, 0, 16], "texture": "#0"}
+				"north": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#2"}
 			}
 		},
 		{
@@ -25,12 +25,12 @@
 			"to": [8, 11, 12],
 			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3, 8]},
 			"faces": {
-				"north": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"south": {"uv": [0, 0, 0, 16], "texture": "#0"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#0"},
-				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#0"},
-				"down": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#0"}
+				"north": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#2"}
 			}
 		},
 		{
