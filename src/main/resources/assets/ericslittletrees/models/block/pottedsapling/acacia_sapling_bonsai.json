@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
 	"textures": {
 		"0": "ericslittletrees:block/acacia_sapling",
 		"1": "ericslittletrees:block/sand",

@@ -1,5 +1,5 @@
 {
-	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
 	"textures": {
 		"1": "ericslittletrees:block/sand",
 		"2": "ericslittletrees:block/dark_oak_sapling",

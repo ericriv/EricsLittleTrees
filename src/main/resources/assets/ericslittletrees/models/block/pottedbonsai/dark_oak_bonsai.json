@@ -1,4 +1,5 @@
 {
+	"render_type": "minecraft:cutout",
 	"textures": {
 		"0": "ericslittletrees:block/bonsai_pot",
 		"1": "ericslittletrees:block/sand",
