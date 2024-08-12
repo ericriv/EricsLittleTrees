@@ -1,6 +1,8 @@
 package com.mymod.ericslittletrees.blocks;
 
 import com.mymod.ericslittletrees.EricsLittleTrees;
+import com.mymod.ericslittletrees.items.BonsaiWire;
+
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.InteractionHand;
@@ -16,6 +18,7 @@ import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
+import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.EnumProperty;
 import net.minecraft.world.level.storage.loot.LootParams;
@@ -27,7 +30,8 @@ import java.util.List;
 public class BonsaiPot extends FlowerPotBlock {
     public static final EnumProperty<BonsaiPotContents> CONTENTS = EnumProperty.create("contents", BonsaiPotContents.class);
     public static final DirectionProperty FACING = DirectionProperty.create("facing", Direction.Plane.HORIZONTAL);
-
+    public static final BooleanProperty HAS_WIRE = BooleanProperty.create("has_wire");
+    
     public BonsaiPot(BlockBehaviour.Properties properties) {
         super(() -> (FlowerPotBlock) Blocks.FLOWER_POT, () -> Blocks.AIR, properties);
         this.registerDefaultState(this.stateDefinition.any().setValue(CONTENTS, BonsaiPotContents.EMPTY));
@@ -45,32 +49,42 @@ public class BonsaiPot extends FlowerPotBlock {
 
     @Override
     public InteractionResult use(BlockState state, Level world, BlockPos pos, Player player, InteractionHand hand, BlockHitResult hit) {
+        ItemStack itemStack = player.getItemInHand(hand);
+
         if (state.getValue(CONTENTS) != BonsaiPotContents.EMPTY) {
-            // If player is right-clicking with an empty hand, remove the sapling
-            if (player.getItemInHand(hand).isEmpty()) {
+            // Handle sapling removal
+            if (itemStack.isEmpty()) {
                 if (!world.isClientSide) {
-                    // Drop the sapling item
                     popResource(world, pos, new ItemStack(state.getValue(CONTENTS).getSaplingBlock()));
-                    // Set the pot back to empty
-                    world.setBlock(pos, state.setValue(CONTENTS, BonsaiPotContents.EMPTY), 3);
+                    if(state.getValue(HAS_WIRE))
+                    	popResource(world, pos, new ItemStack(EricsLittleTrees.BONSAI_WIRE.get()));
+                    world.setBlock(pos, state.setValue(CONTENTS, BonsaiPotContents.EMPTY).setValue(HAS_WIRE, false), 3);
+                }
+                return InteractionResult.SUCCESS;
+            }
+            // Handle interaction with Bonsai Wire
+            if (itemStack.getItem() instanceof BonsaiWire) {
+                if (!world.isClientSide) {
+                    boolean hasWire = !state.getValue(HAS_WIRE);
+                    world.setBlock(pos, state.setValue(HAS_WIRE, hasWire), 3);
+                    if (!player.getAbilities().instabuild) {
+                        itemStack.shrink(1); // Consume the wire item
+                    }
                 }
                 return InteractionResult.SUCCESS;
             }
             return InteractionResult.FAIL;
         }
 
-        ItemStack itemstack = player.getItemInHand(hand);
-        Block block = Block.byItem(itemstack.getItem());
-
-        if (itemstack.getItem() instanceof BlockItem && isSapling(block)) {
+        // Handle sapling placement
+        Block block = Block.byItem(itemStack.getItem());
+        if (itemStack.getItem() instanceof BlockItem && isSapling(block)) {
             BonsaiPotContents newContents = getContentsFromBlock(block);
-
             if (!world.isClientSide) {
                 BlockState newState = state.setValue(CONTENTS, newContents);
                 world.setBlock(pos, newState, 3);
-
                 if (!player.getAbilities().instabuild) {
-                    itemstack.shrink(1);
+                    itemStack.shrink(1);
                 }
             }
             return InteractionResult.SUCCESS;
@@ -98,14 +112,18 @@ public class BonsaiPot extends FlowerPotBlock {
         // Always drop the Bonsai Pot item
         drops.add(new ItemStack(EricsLittleTrees.BONSAI_POT_ITEM.get()));
 
-        // Check if the pot contains a sapling
+        // Check if the pot contains a sapling and add it as a drop
         BonsaiPotContents contents = state.getValue(CONTENTS);
         if (contents != BonsaiPotContents.EMPTY) {
-            // Add the sapling as a drop
             Block saplingBlock = contents.getSaplingBlock();
             if (saplingBlock != null) {
                 drops.add(new ItemStack(saplingBlock));
             }
+        }
+
+        // Check if the pot has a wire and add it as a drop
+        if (state.getValue(HAS_WIRE)) {
+            drops.add(new ItemStack(EricsLittleTrees.BONSAI_WIRE.get()));
         }
 
         return drops;
@@ -113,12 +131,13 @@ public class BonsaiPot extends FlowerPotBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(CONTENTS, FACING);
+        builder.add(CONTENTS, FACING, HAS_WIRE);
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
+        		.setValue(HAS_WIRE, false);
     }
     
     
