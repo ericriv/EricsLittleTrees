@@ -10,6 +10,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -31,6 +32,7 @@ public class BonsaiPot extends FlowerPotBlock {
     public static final EnumProperty<BonsaiPotContents> CONTENTS = EnumProperty.create("contents", BonsaiPotContents.class);
     public static final DirectionProperty FACING = DirectionProperty.create("facing", Direction.Plane.HORIZONTAL);
     public static final BooleanProperty HAS_WIRE = BooleanProperty.create("has_wire");
+    public static final BooleanProperty IS_BONSAI = BooleanProperty.create("is_bonsai");
     
     public BonsaiPot(BlockBehaviour.Properties properties) {
         super(() -> (FlowerPotBlock) Blocks.FLOWER_POT, () -> Blocks.AIR, properties);
@@ -53,8 +55,8 @@ public class BonsaiPot extends FlowerPotBlock {
         ItemStack itemStack = player.getItemInHand(hand);
 
         if (state.getValue(CONTENTS) != BonsaiPotContents.EMPTY) {
-            // Handle sapling removal
-            if (itemStack.isEmpty()) {
+            // Handle sapling removal when not a bonsai
+            if (itemStack.isEmpty() && !state.getValue(IS_BONSAI)) {
                 if (!world.isClientSide) {
                     popResource(world, pos, new ItemStack(state.getValue(CONTENTS).getSaplingBlock()));
                     if(state.getValue(HAS_WIRE))
@@ -66,13 +68,33 @@ public class BonsaiPot extends FlowerPotBlock {
             // Handle interaction with Bonsai Wire
             if (itemStack.getItem() instanceof BonsaiWire) {
                 if (!world.isClientSide) {
-                    boolean hasWire = !state.getValue(HAS_WIRE);
-                    world.setBlock(pos, state.setValue(HAS_WIRE, hasWire), 3);
-                    if (!player.getAbilities().instabuild) {
-                        itemStack.shrink(1); // Consume the wire item
-                    }
+                	if(!state.getValue(HAS_WIRE)) {
+                		world.setBlock(pos, state.setValue(HAS_WIRE, true), 3);
+                        if (!player.getAbilities().instabuild) {
+                            itemStack.shrink(1); // Consume the wire item
+                        }
+                	}
+                	else {
+            			return InteractionResult.FAIL;
+                	}
+                    
                 }
                 return InteractionResult.SUCCESS;
+            }
+            //Handle interaction with bonemeal
+            if(itemStack.getItem() == Items.BONE_MEAL) {
+            	if (!world.isClientSide) {
+            		if(!state.getValue(IS_BONSAI) && state.getValue(HAS_WIRE)) {
+            			world.setBlock(pos, state.setValue(IS_BONSAI, true), 3);
+                        if (!player.getAbilities().instabuild) {
+                            itemStack.shrink(1); // Consume the wire item
+                        }
+            		}
+            		else {
+            			return InteractionResult.FAIL;
+            		}
+            	}
+            	return InteractionResult.SUCCESS;
             }
             return InteractionResult.FAIL;
         }
@@ -93,6 +115,7 @@ public class BonsaiPot extends FlowerPotBlock {
 
         return InteractionResult.FAIL;
     }
+
 
     
     private BonsaiPotContents getContentsFromBlock(Block block) {
@@ -123,8 +146,8 @@ public class BonsaiPot extends FlowerPotBlock {
             }
         }
 
-        // Check if the pot has a wire and add it as a drop
-        if (state.getValue(HAS_WIRE)) {
+        // Check if the pot has a wire and is not a bonsai, add wire as a drop
+        if (state.getValue(HAS_WIRE) && !state.getValue(IS_BONSAI)) {
             drops.add(new ItemStack(EricsLittleTrees.BONSAI_WIRE.get()));
         }
 
@@ -133,13 +156,14 @@ public class BonsaiPot extends FlowerPotBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(CONTENTS, FACING, HAS_WIRE);
+        builder.add(CONTENTS, FACING, HAS_WIRE, IS_BONSAI);
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
-        		.setValue(HAS_WIRE, false);
+        		.setValue(HAS_WIRE, false)
+        		.setValue(IS_BONSAI, false);
     }
     
     
