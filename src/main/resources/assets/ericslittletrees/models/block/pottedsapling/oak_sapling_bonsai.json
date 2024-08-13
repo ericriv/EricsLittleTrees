@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"render_type": "minecraft:cutout",
 	"textures": {
 		"1": "ericslittletrees:block/sand",
@@ -12,8 +13,12 @@
 			"to": [8, 11, 12],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 3, 8]},
 			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#2"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#2"}
+				"south": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#2"}
 			}
 		},
 		{
@@ -21,8 +26,12 @@
 			"to": [8, 11, 12],
 			"rotation": {"angle": -45, "axis": "y", "origin": [8, 3, 8]},
 			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#2"},
 				"east": {"uv": [0, 0, 16, 16], "texture": "#2"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#2"}
+				"south": {"uv": [0, 0, 0, 16], "texture": "#2"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#2"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#2"}
 			}
 		},
 		{
