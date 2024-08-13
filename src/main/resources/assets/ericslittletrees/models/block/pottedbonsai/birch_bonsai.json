@@ -1,4 +1,5 @@
 {
+	"credit": "Made with Blockbench",
 	"render_type": "minecraft:cutout",
 	"textures": {
 		"0": "ericslittletrees:block/bonsai_pot",
@@ -2034,7 +2035,7 @@
 			]
 		},
 		{
-			"name": "cherry_bonsai",
+			"name": "bonsai",
 			"origin": [8, 8, 8],
 			"color": 0,
 			"children": [

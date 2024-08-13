@@ -1,5 +1,5 @@
 facing_directions = ["north", "east", "south", "west"]
-contents_variants = ["empty", "oak_sapling", "spruce_sapling", "birch_sapling", "jungle_sapling", "acacia_sapling", "dark_oak_sapling", "cherry_sapling"]
+contents_variants = ["empty", "oak_sapling", "spruce_sapling", "birch_sapling", "jungle_sapling", "acacia_sapling", "dark_oak_sapling", "cherry_sapling", "mangrove_sapling"]
 wire_variants = ["true", "false"]
 
 json_data = {"variants": {}}

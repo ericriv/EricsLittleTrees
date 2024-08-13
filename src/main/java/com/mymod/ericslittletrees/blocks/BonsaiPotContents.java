@@ -12,6 +12,7 @@ public enum BonsaiPotContents implements StringRepresentable {
     JUNGLE_SAPLING("jungle_sapling", Blocks.JUNGLE_SAPLING),
     ACACIA_SAPLING("acacia_sapling", Blocks.ACACIA_SAPLING),
     DARK_OAK_SAPLING("dark_oak_sapling", Blocks.DARK_OAK_SAPLING),
+    MANGROVE_SAPLING("mangrove_sapling", Blocks.MANGROVE_PROPAGULE),
     CHERRY_SAPLING("cherry_sapling", Blocks.CHERRY_SAPLING);
 
     private final String name;

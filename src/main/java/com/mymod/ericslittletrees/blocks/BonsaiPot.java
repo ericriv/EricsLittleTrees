@@ -44,6 +44,7 @@ public class BonsaiPot extends FlowerPotBlock {
                block == Blocks.JUNGLE_SAPLING ||
                block == Blocks.ACACIA_SAPLING ||
                block == Blocks.DARK_OAK_SAPLING ||
+               block == Blocks.MANGROVE_PROPAGULE ||
                block == Blocks.CHERRY_SAPLING;
     }
 
@@ -101,6 +102,7 @@ public class BonsaiPot extends FlowerPotBlock {
         if (block == Blocks.JUNGLE_SAPLING) return BonsaiPotContents.JUNGLE_SAPLING;
         if (block == Blocks.ACACIA_SAPLING) return BonsaiPotContents.ACACIA_SAPLING;
         if (block == Blocks.DARK_OAK_SAPLING) return BonsaiPotContents.DARK_OAK_SAPLING;
+        if (block == Blocks.MANGROVE_PROPAGULE) return BonsaiPotContents.MANGROVE_SAPLING;
         if (block == Blocks.CHERRY_SAPLING) return BonsaiPotContents.CHERRY_SAPLING;
         return BonsaiPotContents.EMPTY;
     }

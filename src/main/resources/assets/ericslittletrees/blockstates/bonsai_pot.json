@@ -64,6 +64,14 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 0
     },
+	"has_wire=true,contents=mangrove_sapling,facing=north": {
+	  "model": "ericslittletrees:block/pottedbonsai/mangrove_bonsai",
+	  "y": 0
+	},
+	"has_wire=false,contents=mangrove_sapling,facing=north": {
+	  "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+	  "y": 0
+	},	
     "has_wire=true,contents=empty,facing=east": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
@@ -128,6 +136,14 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 90
     },
+	"has_wire=true,contents=mangrove_sapling,facing=east": {
+	  "model": "ericslittletrees:block/pottedbonsai/mangrove_bonsai",
+	  "y": 90
+	},
+	"has_wire=false,contents=mangrove_sapling,facing=east": {
+	  "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+	  "y": 90
+	},
     "has_wire=true,contents=empty,facing=south": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
@@ -192,6 +208,14 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 180
     },
+	"has_wire=true,contents=mangrove_sapling,facing=south": {
+	  "model": "ericslittletrees:block/pottedbonsai/mangrove_bonsai",
+	  "y": 180
+	},
+	"has_wire=false,contents=mangrove_sapling,facing=south": {
+	  "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+	  "y": 180
+	},
     "has_wire=true,contents=empty,facing=west": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
@@ -255,6 +279,14 @@
     "has_wire=false,contents=cherry_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 270
-    }
+    },
+	"has_wire=true,contents=mangrove_sapling,facing=west": {
+	  "model": "ericslittletrees:block/pottedbonsai/mangrove_bonsai",
+	  "y": 270
+	},
+	"has_wire=false,contents=mangrove_sapling,facing=west": {
+	  "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+	  "y": 270
+	}
   }
 }
