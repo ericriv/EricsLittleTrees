@@ -1,6 +1,7 @@
 package com.mymod.ericslittletrees.blocks;
 
 import com.mymod.ericslittletrees.EricsLittleTrees;
+import com.mymod.ericslittletrees.entities.BonsaiPotBlockEntity;
 import com.mymod.ericslittletrees.items.BonsaiWire;
 
 import net.minecraft.core.BlockPos;
@@ -15,7 +16,11 @@ import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.EntityBlock;
 import net.minecraft.world.level.block.FlowerPotBlock;
+import net.minecraft.world.level.block.entity.BlockEntity;
+import net.minecraft.world.level.block.entity.BlockEntityTicker;
+import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
@@ -28,7 +33,9 @@ import net.minecraft.world.phys.BlockHitResult;
 import java.util.ArrayList;
 import java.util.List;
 
-public class BonsaiPot extends FlowerPotBlock {
+import org.jetbrains.annotations.Nullable;
+
+public class BonsaiPot extends FlowerPotBlock implements EntityBlock {
     public static final EnumProperty<BonsaiPotContents> CONTENTS = EnumProperty.create("contents", BonsaiPotContents.class);
     public static final DirectionProperty FACING = DirectionProperty.create("facing", Direction.Plane.HORIZONTAL);
     public static final BooleanProperty HAS_WIRE = BooleanProperty.create("has_wire");
@@ -164,6 +171,22 @@ public class BonsaiPot extends FlowerPotBlock {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
         		.setValue(HAS_WIRE, false)
         		.setValue(IS_BONSAI, false);
+    }
+    
+    @Nullable
+    @Override
+    public BlockEntity newBlockEntity(BlockPos pos, BlockState state) {
+        return new BonsaiPotBlockEntity(pos, state);
+    }
+
+    @Nullable
+    @Override
+    public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
+        return level.isClientSide ? null : (BlockEntityTicker<T>) (level1, pos, state1, entity) -> {
+            if (entity instanceof BonsaiPotBlockEntity) {
+                ((BonsaiPotBlockEntity) entity).tick(level1, pos, state1, (BonsaiPotBlockEntity) entity);
+            }
+        };
     }
     
     

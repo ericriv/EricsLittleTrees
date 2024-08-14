@@ -2,6 +2,7 @@ package com.mymod.ericslittletrees;
 
 import com.mojang.logging.LogUtils;
 import com.mymod.ericslittletrees.blocks.BonsaiPot;
+import com.mymod.ericslittletrees.entities.ModBlockEntities;
 import com.mymod.ericslittletrees.items.BonsaiWire;
 
 import net.minecraft.client.Minecraft;
@@ -56,6 +57,7 @@ public class EricsLittleTrees
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
         CREATIVE_MODE_TABS.register(modEventBus);
+        ModBlockEntities.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
         modEventBus.addListener(this::addCreative);
