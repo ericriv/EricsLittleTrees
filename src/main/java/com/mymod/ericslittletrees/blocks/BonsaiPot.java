@@ -12,6 +12,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -37,6 +38,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class BonsaiPot extends FlowerPotBlock implements EntityBlock {
     public static final EnumProperty<BonsaiPotContents> CONTENTS = EnumProperty.create("contents", BonsaiPotContents.class);
+    public static final EnumProperty<BonsaiModel> BONSAI_MODEL = EnumProperty.create("bonsai_model", BonsaiModel.class);
     public static final DirectionProperty FACING = DirectionProperty.create("facing", Direction.Plane.HORIZONTAL);
     public static final BooleanProperty HAS_WIRE = BooleanProperty.create("has_wire");
     public static final BooleanProperty IS_BONSAI = BooleanProperty.create("is_bonsai");
@@ -87,6 +89,15 @@ public class BonsaiPot extends FlowerPotBlock implements EntityBlock {
                     
                 }
                 return InteractionResult.SUCCESS;
+            }
+            //Handle interaction with shears 
+            if (itemStack.getItem() instanceof ShearsItem) {
+            	if(!world.isClientSide) {
+            		BonsaiModel current = state.getValue(BONSAI_MODEL);
+            		BonsaiModel next = current.getNextModel();
+            		world.setBlock(pos, state.setValue(BONSAI_MODEL, next), 3);
+            		return InteractionResult.SUCCESS;
+            	}
             }
             //Handle interaction with bonemeal
             if(itemStack.getItem() == Items.BONE_MEAL) {
@@ -163,12 +174,13 @@ public class BonsaiPot extends FlowerPotBlock implements EntityBlock {
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(CONTENTS, FACING, HAS_WIRE, IS_BONSAI);
+        builder.add(CONTENTS, BONSAI_MODEL, FACING, HAS_WIRE, IS_BONSAI);
     }
 
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
         return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite())
+        		.setValue(BONSAI_MODEL, BonsaiModel.BASE)
         		.setValue(HAS_WIRE, false)
         		.setValue(IS_BONSAI, false);
     }
