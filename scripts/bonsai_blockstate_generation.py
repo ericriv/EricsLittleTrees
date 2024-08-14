@@ -21,7 +21,7 @@ for facing in facing_directions:
                     model = f"ericslittletrees:block/bonsai_pot"
                 elif bonsai == "true":
                     model_name = content.replace("_sapling", "")
-                    model = f"ericslittletrees:block/pottedbonsai/{model_name}_bonsai"
+                    model = f"ericslittletrees:block/pottedbonsai/basic/{model_name}_bonsai"
                 elif wire == "true":
                     model_name = content
                     model = f"ericslittletrees:block/pottedwiredsapling/{model_name}_bonsai"
