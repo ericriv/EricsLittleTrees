@@ -2,6 +2,7 @@ package com.mymod.ericslittletrees.blocks;
 
 import com.mymod.ericslittletrees.EricsLittleTrees;
 import com.mymod.ericslittletrees.entities.BonsaiPotBlockEntity;
+import com.mymod.ericslittletrees.items.BonsaiScissors;
 import com.mymod.ericslittletrees.items.BonsaiWire;
 
 import net.minecraft.core.BlockPos;
@@ -12,7 +13,6 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
@@ -90,8 +90,8 @@ public class BonsaiPot extends FlowerPotBlock implements EntityBlock {
                 }
                 return InteractionResult.SUCCESS;
             }
-            //Handle interaction with shears 
-            if (itemStack.getItem() instanceof ShearsItem) {
+            //Handle interaction with bonsai scissors
+            if (itemStack.getItem() instanceof BonsaiScissors) {
             	if(!world.isClientSide) {
             		BonsaiModel current = state.getValue(BONSAI_MODEL);
             		BonsaiModel next = current.getNextModel();

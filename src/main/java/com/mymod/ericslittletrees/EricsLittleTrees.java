@@ -3,6 +3,7 @@ package com.mymod.ericslittletrees;
 import com.mojang.logging.LogUtils;
 import com.mymod.ericslittletrees.blocks.BonsaiPot;
 import com.mymod.ericslittletrees.entities.ModBlockEntities;
+import com.mymod.ericslittletrees.items.BonsaiScissors;
 import com.mymod.ericslittletrees.items.BonsaiWire;
 
 import net.minecraft.client.Minecraft;
@@ -48,6 +49,8 @@ public class EricsLittleTrees
         () -> new BlockItem(BONSAI_POT.get(), new Item.Properties()));
     
     public static final RegistryObject<Item> BONSAI_WIRE = ITEMS.register("bonsai_wire", BonsaiWire::new);
+    
+    public static final RegistryObject<Item> BONSAI_SCISSORS = ITEMS.register("bonsai_scissors", BonsaiScissors::new);
 
     public EricsLittleTrees()
     {
@@ -79,7 +82,10 @@ public class EricsLittleTrees
     {
         if (event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
             event.accept(BONSAI_POT_ITEM.get());
-            event.accept(BONSAI_WIRE);
+        }
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+        	event.accept(BONSAI_SCISSORS);
+        	event.accept(BONSAI_WIRE);
         }
         //if (event.getTabKey() == CreativeModeTabs.)
     }
