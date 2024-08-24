@@ -1,6 +1,6 @@
 {
   "variants": {
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=empty,facing=north": {
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=empty,facing=north": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
@@ -8,7 +8,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=empty,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=empty,facing=north": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=empty,facing=north": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
@@ -16,7 +20,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=empty,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=empty,facing=north": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=empty,facing=north": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
@@ -24,7 +32,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=empty,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=empty,facing=north": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=empty,facing=north": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
@@ -32,7 +44,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=empty,facing=north": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 0
     },
@@ -40,7 +56,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 0
     },
@@ -48,7 +68,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 0
     },
@@ -56,7 +80,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 0
     },
@@ -64,7 +92,11 @@
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 0
     },
@@ -72,7 +104,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 0
     },
@@ -80,7 +116,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 0
     },
@@ -88,7 +128,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 0
     },
@@ -96,7 +140,11 @@
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 0
     },
@@ -104,7 +152,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 0
     },
@@ -112,7 +164,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 0
     },
@@ -120,7 +176,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 0
     },
@@ -128,7 +188,11 @@
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 0
     },
@@ -136,7 +200,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 0
     },
@@ -144,7 +212,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 0
     },
@@ -152,7 +224,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 0
     },
@@ -160,7 +236,11 @@
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 0
     },
@@ -168,7 +248,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 0
     },
@@ -176,7 +260,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 0
     },
@@ -184,7 +272,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 0
     },
@@ -192,7 +284,11 @@
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 0
     },
@@ -200,7 +296,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 0
     },
@@ -208,7 +308,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 0
     },
@@ -216,7 +320,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 0
     },
@@ -224,7 +332,11 @@
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 0
     },
@@ -232,7 +344,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 0
     },
@@ -240,7 +356,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 0
     },
@@ -248,7 +368,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 0
     },
@@ -256,7 +380,11 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 0
     },
@@ -264,7 +392,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 0
     },
@@ -272,7 +404,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=north": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 0
     },
@@ -280,7 +416,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 0
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=north": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 0
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=north": {
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 0
     },
@@ -288,7 +428,11 @@
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 0
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=empty,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=north": {
+      "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+      "y": 0
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=empty,facing=east": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
@@ -296,7 +440,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=empty,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=empty,facing=east": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=empty,facing=east": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
@@ -304,7 +452,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=empty,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=empty,facing=east": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=empty,facing=east": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
@@ -312,7 +464,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=empty,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=empty,facing=east": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=empty,facing=east": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
@@ -320,7 +476,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=empty,facing=east": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 90
     },
@@ -328,7 +488,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 90
     },
@@ -336,7 +500,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 90
     },
@@ -344,7 +512,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 90
     },
@@ -352,7 +524,11 @@
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 90
     },
@@ -360,7 +536,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 90
     },
@@ -368,7 +548,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 90
     },
@@ -376,7 +560,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 90
     },
@@ -384,7 +572,11 @@
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 90
     },
@@ -392,7 +584,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 90
     },
@@ -400,7 +596,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 90
     },
@@ -408,7 +608,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 90
     },
@@ -416,7 +620,11 @@
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 90
     },
@@ -424,7 +632,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 90
     },
@@ -432,7 +644,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 90
     },
@@ -440,7 +656,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 90
     },
@@ -448,7 +668,11 @@
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 90
     },
@@ -456,7 +680,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 90
     },
@@ -464,7 +692,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 90
     },
@@ -472,7 +704,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 90
     },
@@ -480,7 +716,11 @@
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 90
     },
@@ -488,7 +728,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 90
     },
@@ -496,7 +740,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 90
     },
@@ -504,7 +752,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 90
     },
@@ -512,7 +764,11 @@
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 90
     },
@@ -520,7 +776,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 90
     },
@@ -528,7 +788,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 90
     },
@@ -536,7 +800,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 90
     },
@@ -544,7 +812,11 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 90
     },
@@ -552,7 +824,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 90
     },
@@ -560,7 +836,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=east": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 90
     },
@@ -568,7 +848,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 90
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=east": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 90
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=east": {
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 90
     },
@@ -576,7 +860,11 @@
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 90
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=empty,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=east": {
+      "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+      "y": 90
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=empty,facing=south": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
@@ -584,7 +872,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=empty,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=empty,facing=south": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=empty,facing=south": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
@@ -592,7 +884,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=empty,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=empty,facing=south": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=empty,facing=south": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
@@ -600,7 +896,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=empty,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=empty,facing=south": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=empty,facing=south": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
@@ -608,7 +908,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=empty,facing=south": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 180
     },
@@ -616,7 +920,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 180
     },
@@ -624,7 +932,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 180
     },
@@ -632,7 +944,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 180
     },
@@ -640,7 +956,11 @@
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 180
     },
@@ -648,7 +968,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 180
     },
@@ -656,7 +980,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 180
     },
@@ -664,7 +992,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 180
     },
@@ -672,7 +1004,11 @@
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 180
     },
@@ -680,7 +1016,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 180
     },
@@ -688,7 +1028,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 180
     },
@@ -696,7 +1040,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 180
     },
@@ -704,7 +1052,11 @@
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 180
     },
@@ -712,7 +1064,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 180
     },
@@ -720,7 +1076,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 180
     },
@@ -728,7 +1088,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 180
     },
@@ -736,7 +1100,11 @@
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 180
     },
@@ -744,7 +1112,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 180
     },
@@ -752,7 +1124,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 180
     },
@@ -760,7 +1136,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 180
     },
@@ -768,7 +1148,11 @@
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 180
     },
@@ -776,7 +1160,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 180
     },
@@ -784,7 +1172,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 180
     },
@@ -792,7 +1184,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 180
     },
@@ -800,7 +1196,11 @@
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 180
     },
@@ -808,7 +1208,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 180
     },
@@ -816,7 +1220,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 180
     },
@@ -824,7 +1232,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 180
     },
@@ -832,7 +1244,11 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 180
     },
@@ -840,7 +1256,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 180
     },
@@ -848,7 +1268,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=south": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 180
     },
@@ -856,7 +1280,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 180
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=south": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 180
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=south": {
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 180
     },
@@ -864,7 +1292,11 @@
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 180
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=empty,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=south": {
+      "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+      "y": 180
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=empty,facing=west": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
@@ -872,7 +1304,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=empty,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=empty,facing=west": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=empty,facing=west": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
@@ -880,7 +1316,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=empty,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=empty,facing=west": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=empty,facing=west": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
@@ -888,7 +1328,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=empty,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=empty,facing=west": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=empty,facing=west": {
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
@@ -896,7 +1340,11 @@
       "model": "ericslittletrees:block/bonsai_pot",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=empty,facing=west": {
+      "model": "ericslittletrees:block/bonsai_pot",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 270
     },
@@ -904,7 +1352,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=oak_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 270
     },
@@ -912,7 +1364,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/oak_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/oak_bonsai",
       "y": 270
     },
@@ -920,7 +1376,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/oak_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=oak_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/oak_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 270
     },
@@ -928,7 +1388,11 @@
       "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/oak_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 270
     },
@@ -936,7 +1400,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=spruce_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=spruce_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 270
     },
@@ -944,7 +1412,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=spruce_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/spruce_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/spruce_bonsai",
       "y": 270
     },
@@ -952,7 +1424,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/spruce_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=spruce_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/spruce_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=spruce_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 270
     },
@@ -960,7 +1436,11 @@
       "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=spruce_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/spruce_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 270
     },
@@ -968,7 +1448,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=birch_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=birch_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 270
     },
@@ -976,7 +1460,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=birch_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/birch_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/birch_bonsai",
       "y": 270
     },
@@ -984,7 +1472,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/birch_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=birch_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/birch_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=birch_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 270
     },
@@ -992,7 +1484,11 @@
       "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=birch_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/birch_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 270
     },
@@ -1000,7 +1496,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=jungle_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=jungle_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 270
     },
@@ -1008,7 +1508,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=jungle_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/jungle_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/jungle_bonsai",
       "y": 270
     },
@@ -1016,7 +1520,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/jungle_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=jungle_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/jungle_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=jungle_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 270
     },
@@ -1024,7 +1532,11 @@
       "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=jungle_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/jungle_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 270
     },
@@ -1032,7 +1544,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=acacia_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=acacia_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 270
     },
@@ -1040,7 +1556,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=acacia_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/acacia_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/acacia_bonsai",
       "y": 270
     },
@@ -1048,7 +1568,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/acacia_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=acacia_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/acacia_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=acacia_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 270
     },
@@ -1056,7 +1580,11 @@
       "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=acacia_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/acacia_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 270
     },
@@ -1064,7 +1592,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=dark_oak_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=dark_oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 270
     },
@@ -1072,7 +1604,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=dark_oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/dark_oak_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/dark_oak_bonsai",
       "y": 270
     },
@@ -1080,7 +1616,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/dark_oak_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=dark_oak_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/dark_oak_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=dark_oak_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 270
     },
@@ -1088,7 +1628,11 @@
       "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=dark_oak_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/dark_oak_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 270
     },
@@ -1096,7 +1640,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=cherry_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=cherry_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 270
     },
@@ -1104,7 +1652,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=cherry_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/cherry_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/cherry_bonsai",
       "y": 270
     },
@@ -1112,7 +1664,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/cherry_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=cherry_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/cherry_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=cherry_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 270
     },
@@ -1120,7 +1676,11 @@
       "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=cherry_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/cherry_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 270
     },
@@ -1128,7 +1688,11 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=true,contents=mangrove_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=true,contents=mangrove_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 270
     },
@@ -1136,7 +1700,11 @@
       "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
       "y": 270
     },
-    "is_bonsai=true,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=west": {
+    "is_bonsai=false,bonsai_model=second,has_wire=true,contents=mangrove_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedwiredsapling/mangrove_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=true,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedbonsai/basic/mangrove_bonsai",
       "y": 270
     },
@@ -1144,11 +1712,19 @@
       "model": "ericslittletrees:block/pottedbonsai/first/mangrove_bonsai",
       "y": 270
     },
-    "is_bonsai=false,bonsai_model=base,has_wire=false,contents=mangrove_sapling,facing=west": {
+    "is_bonsai=true,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedbonsai/second/mangrove_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=basic,has_wire=false,contents=mangrove_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 270
     },
     "is_bonsai=false,bonsai_model=first,has_wire=false,contents=mangrove_sapling,facing=west": {
+      "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
+      "y": 270
+    },
+    "is_bonsai=false,bonsai_model=second,has_wire=false,contents=mangrove_sapling,facing=west": {
       "model": "ericslittletrees:block/pottedsapling/mangrove_sapling_bonsai",
       "y": 270
     }

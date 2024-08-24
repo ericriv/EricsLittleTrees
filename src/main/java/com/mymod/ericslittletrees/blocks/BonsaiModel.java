@@ -4,8 +4,9 @@ import net.minecraft.util.StringRepresentable;
 
 public enum BonsaiModel implements StringRepresentable {
 	
-	BASE("base"),
-	FIRST("first");
+	BASE("basic"),
+	FIRST("first"),
+	SECOND("second");
 	
 	private final String name;
 	
@@ -23,6 +24,8 @@ public enum BonsaiModel implements StringRepresentable {
 		case BASE:
 			return BonsaiModel.FIRST;
 		case FIRST:
+			return BonsaiModel.SECOND;
+		case SECOND:
 		default:
 			return BonsaiModel.BASE;
 		}
